@@ -89,3 +89,13 @@ has_driver_licence = True
 
 if name and age >= 18 and has_driver_licence:
     print(f"User {name} can rent a car")
+
+
+num = int(input("Enter num: "))
+
+length = len(str(num))
+
+if length == 2 and num % 2 == 0:
+    print("Even two-digit number")
+else:
+    print("Not")
