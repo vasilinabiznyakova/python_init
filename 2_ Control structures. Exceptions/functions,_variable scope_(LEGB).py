@@ -164,3 +164,78 @@ greet(name="Alice", age=25)
 
 # both can be used together but *args should be used at the first place
 
+"""
+Unpacking lists and dictionaries
+ Operators * and ** are being used for unpacking lists and dictionaries
+
+"""
+# Unpacking of the list allow to assign elements list to separate vars
+my_list = [1, 2, 3]
+a, b, c = my_list
+
+print (a, b, c)
+
+# if you need to miss any values use _
+a, _, c = my_list
+print(a, c)
+
+# you can unpack the part of the list with *
+
+a, *rest = my_list
+print(a) # 1
+print(rest) # [2, 3]
+
+
+def greet (name, age):
+    print(f"Hello {name}, you are {age} yo")
+
+person_info = {"name": "Vas", "age": 40}
+greet(**person_info)
+
+
+"""Recursion -  a concept in programming where a function calls itself within its own execution. It's like breaking a large problem into smaller, more manageable problems.
+The main components of recursion:
+1) Base case - condition under which the recursion is supposed to stop executing itself, important to avoid infinite loops
+2) Recursion case
+This is the condition under which a function calls itself with new arguments.
+More economic to use loops than recursion as recursion is a new function call that added to call stack
+The stack of calls can overflow, leading to a runtime error. This error is called a stack overflow
+interpreters force the program to terminate after reaching the limit of function calls that do not return a result. Python has limits of 1000 for such calls
+
+The call stack is a specific part of memory used to store information about active function calls.
+Each time a function is called, a new entry (or "layer") is created on this stack for that particular call. This layer contains information about the function's variables, its parameters, and where the function was called from, so that when the function completes, the program can continue from the correct place.
+"""
+# factorial calculation =  is the multiply of all natural numbers from 1 to n n inclusive.
+
+def factorial(n):
+    if n == 0: # base case
+        return 1
+    else:
+        return n * factorial(n-1) # recursion case
+
+print(factorial(5)) # print 120
+
+
+#  Fibonacci numbers are a sequence of numbers in which each subsequent number is the sum of the two previous ones.
+
+
+def fibonacci(n):
+    if n <= 1: # base case
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2) # recursion case
+print(fibonacci(10)) # show 55
+
+
+
+def factorial(n):
+    print("Виклик функції factorial з n = ", n)
+    if n == 1:
+        print("Базовий випадок, n = 1, повернення 1")
+        return 1
+    else:
+        result = n * factorial(n-1)
+        print("Повернення результату для n = ", n, ": ", result)
+        return result
+
+print(factorial(5))
