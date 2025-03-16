@@ -229,13 +229,13 @@ print(fibonacci(10)) # show 55
 
 
 def factorial(n):
-    print("Виклик функції factorial з n = ", n)
+    print("Call func factorial з n = ", n)
     if n == 1:
-        print("Базовий випадок, n = 1, повернення 1")
+        print("base case, n = 1, return 1")
         return 1
     else:
         result = n * factorial(n-1)
-        print("Повернення результату для n = ", n, ": ", result)
+        print("return res for n = ", n, ": ", result)
         return result
 
 print(factorial(5))
