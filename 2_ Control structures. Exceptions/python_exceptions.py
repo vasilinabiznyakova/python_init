@@ -34,3 +34,27 @@ try:
         print("You are infant")
 except ValueError:
     print(f"{age} is not a number")
+
+f=None
+try:
+    # 10/0
+    # f=open("c:\\absent.txt", "rb") #opening non-existing file
+   raise TabError
+ 
+except Exception as e:
+    if isinstance(e, ZeroDivisionError):
+        print('div by 0')
+        pass
+        print(f'Error: {e}')
+    elif isinstance(e, FileNotFoundError):
+        print('no file')
+    else:
+        raise e
+    
+finally:
+    if f is not None:
+        f.close()
+ 
+
+
+print('Done')

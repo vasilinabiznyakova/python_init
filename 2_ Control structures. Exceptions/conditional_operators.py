@@ -65,6 +65,7 @@ Boolean algebra is built on three basic operations: "and", "or", and "not".
 AND: True returned if both conditions are True
 OR: True returned if one of opernads is True
 NOT: unary operation that returns inverted value
+XOR: one of two but not two together ^ 
 Python uses not, and, or
 if you need several conditions to be checked use <and>
 """

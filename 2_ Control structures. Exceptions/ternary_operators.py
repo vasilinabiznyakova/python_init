@@ -21,6 +21,7 @@ else:
 
 """"
 Ternary operators in Python are an elegant way to express conditional expressions in a shorthand form.
+Ternary returns value, if else execute actions
 """
 
 is_nice = True
@@ -35,15 +36,25 @@ msg = some_data or "Data was not returned"
 print(msg)
 
 
+#also possible such usage but its not good practice
+
+ 
+a = 0
+b = "positive" if a > 0 else "negative" if a < 0 else "zero"
+print ( "a is", b)
+
 #Operator match is more flexible version of if else
 #we use it when we need to perform several actions that depands on one variable
+#doesnt recognize >< etc
+# match if more prefereable as we can use several values 
+# usage case is when we  processing commands
 some_variable = True
 match some_variable:
     case "case_1":
         print("Execute smth")
     case "True":
         print("Execute true")
-    case _: #unknow case
+    case _: #unknown case
         print("Unknown fruit.")
 
 

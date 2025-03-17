@@ -9,6 +9,7 @@ for element in sequence:
 while execute block of code untill condition is True, once condition is False the loop breaks
 while condition:
     # block of code for execution
+    for in dict will iterate keys this way we can change values by this
 """
 
 # fruit = 'apple'
@@ -134,3 +135,15 @@ for key, value in numbers.items():
 
 
 #!!!!! Important while you iterate thorugh dictionary you can not remove elements from dictionary, you can not add anything from dictionary but you still can change values if you iterate by keys
+
+
+n = None
+while n is None: # crucial important to use the checking like this
+    a = input("Enter number: ")
+    if a.isnumeric():
+        n = int(a)
+print(n)
+print(type(n))
+
+
+# while True: # used so that the action is executed constantly
