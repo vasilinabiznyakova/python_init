@@ -57,8 +57,11 @@ Operator IS
 checking if 2 obj refers to the same memory area, are they the same obj
 mainly used for checking if variable is None or not 
 
+
 Operator == is used when you need to know if value is same or not
 
+
+In the case of immutable data types, Python may cache objects, which sometimes results in the is operator returning True for objects with the same values, as in the case of very small integers or short strings.
 
 Boolean algebra - It is a branch of mathematics that deals with the study of the truth of expressions and their processing. 
 Boolean algebra is built on three basic operations: "and", "or", and "not".
@@ -100,3 +103,36 @@ if length == 2 and num % 2 == 0:
     print("Even two-digit number")
 else:
     print("Not")
+
+
+    x = int(input("X: "))
+y = int(input("Y: "))
+
+if x == 0:
+    print("X can`t be equal to zero")
+    x = int(input("X: "))
+
+    if x == 0:
+        print("X can`t be equal to zero")
+        x = int(input("X: "))
+
+        if x == 0:
+            print("X can`t be equal to zero")
+            x = int(input("X: "))
+
+result = y / x
+
+
+
+
+if x >= 0:
+    if y >= 0:  # x > 0, y > 0
+        print("Перша чверть")
+    else:  # x > 0, y < 0
+        print("Четверта чверть")
+else:
+    if y >= 0:  # x < 0, y > 0
+        print("Друга чверть")
+    else:  # x < 0, y < 0
+        print("Третя чверть")
+
