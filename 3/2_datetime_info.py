@@ -16,6 +16,7 @@ weekday(): The method determines the number of the day of the week for the speci
 from datetime import datetime, date, time
 
 current_datetime = datetime.now()  # Now this works correctly
+
 print(current_datetime.year)
 print(current_datetime.month)
 print(current_datetime.day)
@@ -33,15 +34,20 @@ time_part = time(12, 30, 15)
 print(time_part)
 print(datetime.combine(date_part, time_part))
 
-specific_datetime = datetime(year = 2025, month = 3, day = 18 )
+# Using key parameters makes the code more understandable, especially when read by other developers.
+specific_datetime = datetime(
+    year=2025, month=3, day=18
+)  
 print(specific_datetime)
 
 now = datetime.now()
 day_of_week = now.weekday()
+
 
 print(f'Today is: {day_of_week}')
 
 datetime1 = datetime(2025, 3, 3)
 datetime2 = datetime(2025, 3, 18)
 
+# we can compare dates using regular mathematical expressions
 print( datetime1 < datetime2)

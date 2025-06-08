@@ -28,6 +28,8 @@ difference = seventh_day_2019 - seventh_day_2025
 print(difference)
 print(difference.total_seconds())
 
+
+# The maximum range for timedelta is limited to approximately 9999 years
 now = datetime.now()
 future_date = now + timedelta(days=10) 
 print(future_date)
@@ -47,6 +49,8 @@ print(days_since)
 
 """"
 ☝ timestamp is a universal way to represent time because it is independent of time zones and calendar systems.
+
+This is usually represented as the number of seconds (or milliseconds/microseconds in some systems) since a specific starting date, most often January 1, 1970 in UTC, which is the Greenwich Mean Time zone.
 """
 
 # Current time
@@ -54,7 +58,10 @@ now = datetime.now()
 
 # Convert datetime to timestamp
 timestamp = datetime.timestamp(now)
-print(timestamp) # Print the timestamp of the current time
+print(timestamp)  # Print the timestamp of the current time 1749392535.040044
+
+converted_tsmp = datetime.fromtimestamp(timestamp)
+print(converted_tsmp)
 
 
 from datetime import datetime
@@ -64,4 +71,4 @@ timestamp = 1617183600
 
 #  timestamp to datetime
 dt_object = datetime.fromtimestamp(timestamp)
-print(dt_object)  
+print(dt_object)
