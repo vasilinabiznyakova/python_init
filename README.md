@@ -1,0 +1,1 @@
+This repository contains some notes and code examples  used in the Python programming course at the Computer Science master's degree.
