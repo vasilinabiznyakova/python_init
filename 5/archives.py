@@ -9,12 +9,12 @@ shutil.make_archive(base_name, format, root_dir=None, base_dir=None)
 """
 
 
-# Create a ZIP archive with the contents of the 'my_folder' directory
-shutil.make_archive("example", "zip", root_dir="4")
+# # Create a ZIP archive with the contents of the 'my_folder' directory
+# shutil.make_archive("example", "zip", root_dir="4")
 
 
-# Unpacking a ZIP archive to a specific directory
-shutil.unpack_archive("example.zip", "destination_folder")
+# # Unpacking a ZIP archive to a specific directory
+# shutil.unpack_archive("example.zip", "destination_folder")
 
 
 # # Copy the file
