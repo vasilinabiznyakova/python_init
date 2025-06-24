@@ -34,3 +34,6 @@ from some_test_module import say_hello as greeting
 print(greeting("World"))
 
 
+print(dir())
+
+
