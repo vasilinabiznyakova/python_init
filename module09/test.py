@@ -283,30 +283,37 @@
 # print(ts)  # abcdefg
 
 
-import string
+# import string
 
 
-class NameTooShortError(Exception):
-    pass
+# class NameTooShortError(Exception):
+#     pass
 
 
-class NameStartsFromLowError(Exception):
-    pass
+# class NameStartsFromLowError(Exception):
+#     pass
 
 
-def enter_name():
-    name = input("Enter name: ")
-    if len(name) < 3:
-        raise NameTooShortError
-    if name[0] not in string.ascii_uppercase:
-        raise NameStartsFromLowError
+# def enter_name():
+#     name = input("Enter name: ")
+#     if len(name) < 3:
+#         raise NameTooShortError
+#     if name[0] not in string.ascii_uppercase:
+#         raise NameStartsFromLowError
 
 
-while True:
-    try:
-        name = enter_name()
-        break
-    except NameTooShortError:
-        print("Name is too short, need more than 3 symbols. Try again.")
-    except NameStartsFromLowError:
-        print("Name should start from capital letter. Try again.")
+# while True:
+#     try:
+#         name = enter_name()
+#         break
+#     except NameTooShortError:
+#         print("Name is too short, need more than 3 symbols. Try again.")
+#     except NameStartsFromLowError:
+#         print("Name should start from capital letter. Try again.")
+
+
+from typing import Protocol # this is for abstraction
+
+class Animal(Protocol): # interface
+    def speak (self)->str:
+        pass # inside of protocol we just pass all methods
