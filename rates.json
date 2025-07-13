@@ -1,0 +1,314 @@
+[
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "01.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.65,
+                "purchaseRateNB": 48.9856,
+                "saleRate": 49.65,
+                "saleRateNB": 48.9856
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.4,
+                "purchaseRateNB": 41.7788,
+                "saleRate": 42.0,
+                "saleRateNB": 41.7788
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "02.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.7,
+                "purchaseRateNB": 49.4093,
+                "saleRate": 49.7,
+                "saleRateNB": 49.4093
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.39,
+                "purchaseRateNB": 41.8191,
+                "saleRate": 41.99,
+                "saleRateNB": 41.8191
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "03.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.65,
+                "purchaseRateNB": 49.1328,
+                "saleRate": 49.65,
+                "saleRateNB": 49.1328
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.8116,
+                "saleRate": 41.95,
+                "saleRateNB": 41.8116
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "04.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.55,
+                "purchaseRateNB": 49.1758,
+                "saleRate": 49.55,
+                "saleRateNB": 49.1758
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.32,
+                "purchaseRateNB": 41.7239,
+                "saleRate": 41.92,
+                "saleRateNB": 41.7239
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "05.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.55,
+                "purchaseRateNB": 49.1758,
+                "saleRate": 49.55,
+                "saleRateNB": 49.1758
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.32,
+                "purchaseRateNB": 41.7239,
+                "saleRate": 41.92,
+                "saleRateNB": 41.7239
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "06.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.55,
+                "purchaseRateNB": 49.1758,
+                "saleRate": 49.55,
+                "saleRateNB": 49.1758
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.32,
+                "purchaseRateNB": 41.7239,
+                "saleRate": 41.92,
+                "saleRateNB": 41.7239
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "07.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.5,
+                "purchaseRateNB": 49.121,
+                "saleRate": 49.5,
+                "saleRateNB": 49.121
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.39,
+                "purchaseRateNB": 41.7341,
+                "saleRate": 41.99,
+                "saleRateNB": 41.7341
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "08.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.5,
+                "purchaseRateNB": 49.0285,
+                "saleRate": 49.5,
+                "saleRateNB": 49.0285
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.42,
+                "purchaseRateNB": 41.7975,
+                "saleRate": 42.02,
+                "saleRateNB": 41.7975
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "09.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.3,
+                "purchaseRateNB": 49.0563,
+                "saleRate": 49.3,
+                "saleRateNB": 49.0563
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.8462,
+                "saleRate": 41.95,
+                "saleRateNB": 41.8462
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "10.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.35,
+                "purchaseRateNB": 48.8427,
+                "saleRate": 49.35,
+                "saleRateNB": 48.8427
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.7745,
+                "saleRate": 41.95,
+                "saleRateNB": 41.7745
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "11.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.25,
+                "purchaseRateNB": 48.975,
+                "saleRate": 49.25,
+                "saleRateNB": 48.975
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.8232,
+                "saleRate": 41.95,
+                "saleRateNB": 41.8232
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "12.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.25,
+                "purchaseRateNB": 48.975,
+                "saleRate": 49.25,
+                "saleRateNB": 48.975
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.8232,
+                "saleRate": 41.95,
+                "saleRateNB": 41.8232
+            }
+        ]
+    },
+    {
+        "bank": "PB",
+        "baseCurrency": 980,
+        "baseCurrencyLit": "UAH",
+        "date": "13.07.2025",
+        "exchangeRate": [
+            {
+                "baseCurrency": "UAH",
+                "currency": "EUR",
+                "purchaseRate": 48.25,
+                "purchaseRateNB": 48.975,
+                "saleRate": 49.25,
+                "saleRateNB": 48.975
+            },
+            {
+                "baseCurrency": "UAH",
+                "currency": "USD",
+                "purchaseRate": 41.35,
+                "purchaseRateNB": 41.8232,
+                "saleRate": 41.95,
+                "saleRateNB": 41.8232
+            }
+        ]
+    }
+]
